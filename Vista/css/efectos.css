@@ -1,0 +1,41 @@
+/* 
+    Document   : efector
+    Created on : 4/06/2013, 09:44:02 AM
+    Author     : JohnnyAlexander
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*efecto de trasparencia
+
+<div id="menuaccesos">
+<ul>
+<li><a href="#"><img src="imagenes/estudiocontable.png" alt="Estudio contable" /></a></li>
+<li><a href="#"> <img src="imagenes/derechotributario.png" alt="Derecho tributario" /></a></li>
+<li><a href="#"><img src="imagenes/ensenanza.png" alt="Enseñanza" /></a></li>
+</ul>
+*/
+#menuaccesos a:hover {
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    -webkit-opacity: 0.8;
+    filter:alpha(opacity=40);
+}
+
+
+
+
+/******************************************************/
+/******************************************************/
+/*****************DRAG AND DROP************************/
+/******************************************************/
+/******************************************************/
+
+#div11, #div22{
+    float:left; 
+    width:100px; 
+    height:35px; 
+    margin:10px;
+    padding:10px;
+    border:1px solid #aaaaaa;
+}

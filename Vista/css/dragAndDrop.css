@@ -1,0 +1,115 @@
+
+section {
+    margin: auto;
+    width: 1000px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-shadow: 0px 0px 1px #d0eb6a;
+}
+
+h2, h3{
+    color: #e7931a;
+}
+
+
+footer, header{
+    background: rgba(20,20,20,0.8);
+    box-shadow: 0px 0px 10px  2px #777;
+    /*color: #d0eb6a;
+    color: #e7931a; */
+    color: #f28516;
+    padding: 10px 50px;
+    width: 900px;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+
+/* Pie de pagina */
+footer #autor {
+    float: left;
+}
+
+footer #blog {
+    float: right;
+}
+
+
+
+/* Contenedor del puzzle*/
+#contenedorPuzzle {
+    margin: 20px auto;
+    width: 900px;
+    background: rgba(20,20,20,0.8);
+    box-shadow: 0px 0px 10px  2px #777;
+    color: #ccc;
+    padding: 10px 50px 50px 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* Puzzle */
+#contenedorPiezas{    
+    width: 1105px;
+    height: 100px;
+    float: left;
+    margin-left: 20px;   
+}
+
+/* Puzzle */
+#contenedorPiezasAct2{    
+    width: 400px;
+    height: 800px;
+    float: left;
+    margin-left: 20px;   
+}
+
+#puzzle {
+    /*    background: #d0eb6a;*/    
+    width: 400px;
+    height: 450px;
+    float: right;
+    margin-right: 20px;
+    /*box-shadow: 0px 0px 10px  2px #e7931a;*/
+}
+.contenedorPieza {
+    border: 1px;
+    width: 37px;
+    height: 37px;
+    float: left;
+    background-image: url(../imagenes/juegos/lectoEscritura/actividad01/37x37.png);   
+}
+
+.contenedorPiezaAct02 {
+    border: 1px;
+    width: 400px;
+    height: 200px;
+    float: left;    
+}
+
+
+#contenedorPuzzle img {
+    float: left;
+    padding: 1px;
+    width: 198px;
+    height: 198px;
+}
+
+
+.fondoJuego01{
+    background-image: url(../imagenes/juegos/biologia/juego01/prueba.png);  
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 500px;
+}
+
+.fondoJuego02{
+    background-image: url(../imagenes/juegos/lectoEscritura/actividad02/fondo.png);  
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 500px;
+}

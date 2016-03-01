@@ -1,0 +1,169 @@
+
+.contenedorSecuencia{
+    border: 9px double #F2F2F2;
+}
+
+.profase{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.profase:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+.metafase{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.metafase:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+.anafase{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.anafase:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+.telofase{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.telofase:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+.citocinesis{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.citocinesis:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+
+
+
+.profaseGrafica{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.profaseGrafica:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+.metafaseGrafica{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.metafaseGrafica:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+.anafaseGrafica{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.anafaseGrafica:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+.telofaseGrafica{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.telofaseGrafica:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+.citocinesisGrafica{
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    -moz-transition: all 0.50s linear;
+    -o-transition: all 0.50s linear;
+    transition: all 0.50s linear;
+}
+
+.citocinesisGrafica:hover{
+    -webkit-transform: rotate(0deg) scale(1.2);/*rota imagenes, para webkit*/
+    -moz-transform: rotate(0deg) scale(1.2) ;/*rota imagenes, para mozilla*/
+    -o-transform:rotate(0deg) scale(1.2) ;/*rota imagenes, para opera*/
+    transform:rotate(0deg) scale(1.2) ;/*rota imagenes, estandar*/
+}
+
+
